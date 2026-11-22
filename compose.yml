@@ -1,7 +1,7 @@
 services:
     app:
         # TODO: Change the image to your own image
-        image: ghcr.io/filizzpalm/lab5/app:1.0.0
+        image: ghcr.io/filizzpalm/lab5/app:latest
         container_name: github-action-app
         ports:
         - "5000:5000"
